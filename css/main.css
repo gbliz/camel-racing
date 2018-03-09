@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    padding: 30px;
+    font-family: segoe ui;
+    background-color: rgb(228, 223, 152);
+    background-image: url(../img/camels.jpeg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #ff3333;
+    font-size: 50px;
+}
+
+p {
+    font-family: segoe ui;
+}
+
+/*------- Classes -------*/
+
+.select {
+    text-align: right;
+    margin: 0px;
+}
+
+.bio {
+    text-align: center;
+}

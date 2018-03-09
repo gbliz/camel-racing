@@ -1,12 +1,11 @@
-# CodeLou_FrontEnd
+# Camel Racing
 
 ## Description
 ```
-A brief description of your project
+This is a simple webpage titled "Camel Racing", which mirrors
+a typical description and sign-up of a fictional sport event.
 
 ```
-
-
 
 ## Custom CSS Classes
 ```
@@ -19,13 +18,12 @@ The class(es) I created are:
 
 ```
 
-
-
 ## Custom JavaScript Functions
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1.  document.getElementById("howdareyou").addEventListener("click", function(){alert("You hit 'yes'. How disgusting.");});
+This script displays an alert box after the user clicks 'Yes'
+on a radio button.
 
 ```

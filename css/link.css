@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    padding: 30px;
+    font-family: segoe ui;
+    background-color: rgba(171, 202, 99, 0.781);
+    background-image: url(../img/old-woman-desert.jpeg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:rgb(247, 225, 128);
+    font-size: 50px;
+}
+
+.submit {   
+    background-color: #f7dd6b;
+}
+
+h2 {
+    color: rgb(255, 255, 255);  
+}
