@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Sign Up</title>
     <link rel="stylesheet" href="css/link.css">
   </head>
@@ -10,8 +11,9 @@
         <br>
         <p>Do you think Camel Racing is a joke?</p>
         <form>
-            <input type="radio" name="answer" value="yes" id="howdareyou"> Yes<br>
-             <input type="radio" name="answer" value="no" checked> No<br>
+            <input type="radio" name="answer" value="yes" class="yes"> Yes<br>
+            <p id="howdareyou" class="resp">You hit yes. How disgusting.</p>
+            <input type="radio" name="answer" value="no" checked> No<br>
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>  

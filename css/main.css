@@ -28,3 +28,8 @@ p {
 .bio {
     text-align: center;
 }
+
+@media (max-width: 769px) {
+
+
+}

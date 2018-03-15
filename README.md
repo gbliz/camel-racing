@@ -22,8 +22,10 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1.  document.getElementById("howdareyou").addEventListener("click", function(){alert("You hit 'yes'. How disgusting.");});
-This script displays an alert box after the user clicks 'Yes'
+1.  $(".yes").click(function(){
+    $('#howdareyou').show();
+});
+This script displays text after the user clicks 'Yes'
 on a radio button.
 
 ```
