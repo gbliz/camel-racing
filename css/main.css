@@ -1,4 +1,8 @@
 body {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    color: white;
     text-align: center;
     padding: 30px;
     font-family: segoe ui;
@@ -19,11 +23,6 @@ p {
 }
 
 /*------- Classes -------*/
-
-.select {
-    text-align: right;
-    margin: 0px;
-}
 
 .bio {
     text-align: center;

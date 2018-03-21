@@ -3,7 +3,7 @@
 ## Description
 ```
 This is a simple webpage titled "Camel Racing", which mirrors
-a typical description and sign-up of a fictional sport event.
+a typical description and sign-up of a fictional sport event.   
 
 ```
 
