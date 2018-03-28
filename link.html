@@ -4,7 +4,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Sign Up</title>
     <link rel="stylesheet" href="css/link.css">
-  </head>
+  </head>   
     <body>  
         <h1>Don't lie to us</h1>
         <p>We take this very seriously</p>
@@ -12,9 +12,11 @@
         <p>Do you think Camel Racing is a joke?</p>
         <form>
             <input type="radio" name="answer" value="yes" class="yes"> Yes<br>
+        <!-- The 'id' in this <p> tag is linked to app.js -->
             <p id="howdareyou" class="resp">You hit yes. How disgusting.</p>
             <input type="radio" name="answer" value="no" checked> No<br>
         <div class="form">
+        <!-- A few placeholder text boxes. -->
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>  
@@ -24,6 +26,8 @@
             </form>
         </div>
         <h2>Ready to go?</h2>
+    <!-- This 'Submit' button doesn't do anything. Consider this
+    the last element of the project. -->
         <input type="submit" value="Submit" class="submit">
     </body>
     <script src="js/app.js"> 

@@ -18,12 +18,15 @@ h1 {
     font-size: 50px;
 }
 
-.submit {   
-    background-color: #f7dd6b;
-}
 
 h2 {
     color: rgb(58, 44, 32);  
+}
+
+/*------- Classes -------*/
+
+.submit {   
+    background-color: #f7dd6b;
 }
 
 .resp {
@@ -31,7 +34,13 @@ h2 {
     text-shadow: 3px 2px 1.5px rgb(0, 0, 0);
 }
 
-@media (max-width: 769px) {
+/*--- Let's Get Responsive! ---*/
 
-    
+@media (min-width: 600px) {
+    p {
+        font-size: 20px;
+        line-height: 0.4rem;
+    }
 }
+
+@media (min-width)
