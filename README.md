@@ -3,7 +3,7 @@
 ## Description
 ```
 This is a simple webpage titled "Camel Racing", which mirrors
-a typical description and sign-up of a fictional sport event.   
+a typical description and sign-up of a fictional sport event.
 
 ```
 
@@ -11,10 +11,10 @@ a typical description and sign-up of a fictional sport event.
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
-
-2.
+1. '.bio' This class has simple, centered text.
+2. '.resp' This class has effect text that appears with Javascript.
+3. '.submit' Changed color of the 'Submit' button.
+4. '.button1' Changed color of hyperlink to 'link.css'.
 
 ```
 
